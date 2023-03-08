@@ -1,0 +1,12 @@
+com/google/qa/pages/StorePage.class
+com/google/qa/util/TestUtil.class
+com/google/qa/pages/GmailPage.class
+com/qa/ExtentReportListener/ExtentReporterNG.class
+com/google/qa/pages/AboutPage.class
+com/google/qa/config/Xls_Reader.class
+com/google/qa/base/TestBase.class
+com/google/qa/pages/HelpPage.class
+com/google/qa/pages/SigninPage.class
+com/google/qa/pages/HomePage.class
+com/google/qa/pages/SearchPage.class
+com/google/qa/util/WebEventListener.class

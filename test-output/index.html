@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Google_Application_Test_Automation_Test_Suit" class="navigator-link">
+              <span class="suite-name border-failed">Google Application Test Automation Test Suit</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Google_Application_Test_Automation_Test_Suit" class="navigator-link ">
+                    <span>TestNg.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Google_Application_Test_Automation_Test_Suit" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Google_Application_Test_Automation_Test_Suit" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Google_Application_Test_Automation_Test_Suit" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Google_Application_Test_Automation_Test_Suit" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Google_Application_Test_Automation_Test_Suit" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Google_Application_Test_Automation_Test_Suit" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">11 methods, 1 failed,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Google_Application_Test_Automation_Test_Suit" class="hide-methods failed suite-Google_Application_Test_Automation_Test_Suit"> (hide)</a> <!-- hide-methods failed suite-Google_Application_Test_Automation_Test_Suit -->
+                      <a href="#" panel-name="suite-Google_Application_Test_Automation_Test_Suit" class="show-methods failed suite-Google_Application_Test_Automation_Test_Suit"> (show)</a> <!-- show-methods failed suite-Google_Application_Test_Automation_Test_Suit -->
+                    </span>
+                    <div class="method-list-content failed suite-Google_Application_Test_Automation_Test_Suit">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Google_Application_Test_Automation_Test_Suit" title="com.google.qa.testcases.GmailPageTest" class="method navigator-link" hash-for-method="GmailPagetitleTest">GmailPagetitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Google_Application_Test_Automation_Test_Suit -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Google_Application_Test_Automation_Test_Suit" class="hide-methods passed suite-Google_Application_Test_Automation_Test_Suit"> (hide)</a> <!-- hide-methods passed suite-Google_Application_Test_Automation_Test_Suit -->
+                      <a href="#" panel-name="suite-Google_Application_Test_Automation_Test_Suit" class="show-methods passed suite-Google_Application_Test_Automation_Test_Suit"> (show)</a> <!-- show-methods passed suite-Google_Application_Test_Automation_Test_Suit -->
+                    </span>
+                    <div class="method-list-content passed suite-Google_Application_Test_Automation_Test_Suit">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Google_Application_Test_Automation_Test_Suit" title="com.google.qa.testcases.GmailPageTest" class="method navigator-link" hash-for-method="GmailErrorTest">GmailErrorTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Google_Application_Test_Automation_Test_Suit" title="com.google.qa.testcases.HomePageTest" class="method navigator-link" hash-for-method="GmailPageTest">GmailPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Google_Application_Test_Automation_Test_Suit" title="com.google.qa.testcases.HomePageTest" class="method navigator-link" hash-for-method="GooogleImageLogoTest">GooogleImageLogoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Google_Application_Test_Automation_Test_Suit" title="com.google.qa.testcases.GmailPageTest" class="method navigator-link" hash-for-method="HelpPageTitleTest">HelpPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Google_Application_Test_Automation_Test_Suit" title="com.google.qa.testcases.HomePageTest" class="method navigator-link" hash-for-method="HomePagetitleTest">HomePagetitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Google_Application_Test_Automation_Test_Suit" title="com.google.qa.testcases.StorePageTest" class="method navigator-link" hash-for-method="LaptopDisplayTest">LaptopDisplayTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Google_Application_Test_Automation_Test_Suit" title="com.google.qa.testcases.StorePageTest" class="method navigator-link" hash-for-method="PhonesDisplayTest">PhonesDisplayTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Google_Application_Test_Automation_Test_Suit" title="com.google.qa.testcases.HomePageTest" class="method navigator-link" hash-for-method="SearchPageTest">SearchPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Google_Application_Test_Automation_Test_Suit" title="com.google.qa.testcases.StorePageTest" class="method navigator-link" hash-for-method="StorePageTitleTest">StorePageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Google_Application_Test_Automation_Test_Suit" title="com.google.qa.testcases.HomePageTest" class="method navigator-link" hash-for-method="VerifyStoreLinkTest">VerifyStoreLinkTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Google_Application_Test_Automation_Test_Suit -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Google_Application_Test_Automation_Test_Suit" class="panel Google_Application_Test_Automation_Test_Suit">
+          <div class="suite-Google_Application_Test_Automation_Test_Suit-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.google.qa.testcases.GmailPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="GmailPagetitleTest">
+                  </a> <!-- GmailPagetitleTest -->
+                  <span class="method-name">GmailPagetitleTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: Gmail Page Title Not Matched expected [Sign in - Google Accounts11] but found [Sign in - Google Accounts]
+	at com.google.qa.testcases.GmailPageTest.GmailPagetitleTest(GmailPageTest.java:42)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Google_Application_Test_Automation_Test_Suit-class-failed -->
+          <div class="suite-Google_Application_Test_Automation_Test_Suit-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.google.qa.testcases.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="GmailPageTest">
+                  </a> <!-- GmailPageTest -->
+                  <span class="method-name">GmailPageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="GooogleImageLogoTest">
+                  </a> <!-- GooogleImageLogoTest -->
+                  <span class="method-name">GooogleImageLogoTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePagetitleTest">
+                  </a> <!-- HomePagetitleTest -->
+                  <span class="method-name">HomePagetitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearchPageTest">
+                  </a> <!-- SearchPageTest -->
+                  <span class="method-name">SearchPageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyStoreLinkTest">
+                  </a> <!-- VerifyStoreLinkTest -->
+                  <span class="method-name">VerifyStoreLinkTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Google_Application_Test_Automation_Test_Suit-class-passed -->
+          <div class="suite-Google_Application_Test_Automation_Test_Suit-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.google.qa.testcases.StorePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LaptopDisplayTest">
+                  </a> <!-- LaptopDisplayTest -->
+                  <span class="method-name">LaptopDisplayTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PhonesDisplayTest">
+                  </a> <!-- PhonesDisplayTest -->
+                  <span class="method-name">PhonesDisplayTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="StorePageTitleTest">
+                  </a> <!-- StorePageTitleTest -->
+                  <span class="method-name">StorePageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Google_Application_Test_Automation_Test_Suit-class-passed -->
+          <div class="suite-Google_Application_Test_Automation_Test_Suit-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.google.qa.testcases.GmailPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="GmailErrorTest">
+                  </a> <!-- GmailErrorTest -->
+                  <span class="method-name">GmailErrorTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HelpPageTitleTest">
+                  </a> <!-- HelpPageTitleTest -->
+                  <span class="method-name">HelpPageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Google_Application_Test_Automation_Test_Suit-class-passed -->
+        </div> <!-- panel Google_Application_Test_Automation_Test_Suit -->
+        <div panel-name="test-xml-Google_Application_Test_Automation_Test_Suit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/sandeepdhaliwal/Desktop/QA/SeleniumWorkSpace/GoogleTest/src/main/resources/TestNg.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Google Application Test Automation Test Suit&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.qa.ExtentReportListener.ExtentReporterNG&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Google App Test Cases&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.google.qa.testcases.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;com.google.qa.testcases.StorePageTest&quot;/&gt;
+      &lt;class name=&quot;com.google.qa.testcases.GmailPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Google App Test Cases --&gt;
+&lt;/suite&gt; &lt;!-- Google Application Test Automation Test Suit --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Google_Application_Test_Automation_Test_Suit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Google Application Test Automation Test Suit</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Google App Test Cases (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Google_Application_Test_Automation_Test_Suit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Google Application Test Automation Test Suit</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Google_Application_Test_Automation_Test_Suit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Google Application Test Automation Test Suit</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Google_Application_Test_Automation_Test_Suit');
+function tableData_Google_Application_Test_Automation_Test_Suit() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(11);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'HelpPageTitleTest')
+data.setCell(0, 2, 'com.google.qa.testcases.GmailPageTest')
+data.setCell(0, 3, 2114);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'VerifyStoreLinkTest')
+data.setCell(1, 2, 'com.google.qa.testcases.HomePageTest')
+data.setCell(1, 3, 1729);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'GmailPageTest')
+data.setCell(2, 2, 'com.google.qa.testcases.HomePageTest')
+data.setCell(2, 3, 1078);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'GmailErrorTest')
+data.setCell(3, 2, 'com.google.qa.testcases.GmailPageTest')
+data.setCell(3, 3, 396);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'LaptopDisplayTest')
+data.setCell(4, 2, 'com.google.qa.testcases.StorePageTest')
+data.setCell(4, 3, 122);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'PhonesDisplayTest')
+data.setCell(5, 2, 'com.google.qa.testcases.StorePageTest')
+data.setCell(5, 3, 100);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'SearchPageTest')
+data.setCell(6, 2, 'com.google.qa.testcases.HomePageTest')
+data.setCell(6, 3, 85);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'GooogleImageLogoTest')
+data.setCell(7, 2, 'com.google.qa.testcases.HomePageTest')
+data.setCell(7, 3, 48);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'GmailPagetitleTest')
+data.setCell(8, 2, 'com.google.qa.testcases.GmailPageTest')
+data.setCell(8, 3, 46);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'HomePagetitleTest')
+data.setCell(9, 2, 'com.google.qa.testcases.HomePageTest')
+data.setCell(9, 3, 16);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'StorePageTitleTest')
+data.setCell(10, 2, 'com.google.qa.testcases.StorePageTest')
+data.setCell(10, 3, 8);
+window.suiteTableData['Google_Application_Test_Automation_Test_Suit']= { tableData: data, tableDiv: 'times-div-Google_Application_Test_Automation_Test_Suit'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <div id="times-div-Google_Application_Test_Automation_Test_Suit">
+              </div> <!-- times-div-Google_Application_Test_Automation_Test_Suit -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Google_Application_Test_Automation_Test_Suit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Google Application Test Automation Test Suit</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Google_Application_Test_Automation_Test_Suit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Google_Application_Test_Automation_Test_Suit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.google.qa.testcases.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">HomePagetitleTest</span>
+                <span class="method-start">5139 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">5160 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">5671 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">GooogleImageLogoTest</span>
+                <span class="method-start">8615 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">8664 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">9326 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">SearchPageTest</span>
+                <span class="method-start">12204 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">12297 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">13080 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">GmailPageTest</span>
+                <span class="method-start">16186 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">17271 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">17791 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyStoreLinkTest</span>
+                <span class="method-start">20831 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">22569 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.google.qa.testcases.StorePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">23043 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PhonesDisplayTest</span>
+                <span class="method-start">27664 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">27771 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">28234 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LaptopDisplayTest</span>
+                <span class="method-start">32980 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">33110 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">33567 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">StorePageTitleTest</span>
+                <span class="method-start">38369 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">38380 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.google.qa.testcases.GmailPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">38843 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">GmailPagetitleTest</span>
+                <span class="method-start">42988 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">43040 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">43496 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">GmailErrorTest</span>
+                <span class="method-start">47716 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">48114 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">48566 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">HelpPageTitleTest</span>
+                <span class="method-start">52782 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">54903 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

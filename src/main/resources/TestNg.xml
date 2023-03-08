@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Google Application Test Automation Test Suit">
+  
+  
+  <listeners>
+		<listener class-name="com.qa.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+  
+  <test name="Google App Test Cases">
+    <classes>
+      <class name="com.google.qa.testcases.HomePageTest"></class>
+      <class name="com.google.qa.testcases.StorePageTest">></class>
+      <class name="com.google.qa.testcases.GmailPageTest"></class>
+   
+   
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

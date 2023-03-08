@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="10" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-04T14:52:20 MST" name="Surefire suite" finished-at="2023-03-04T14:53:16 MST" duration-ms="56082">
+    <groups>
+    </groups>
+    <test started-at="2023-03-04T14:52:20 MST" name="Surefire test" finished-at="2023-03-04T14:53:16 MST" duration-ms="56082">
+      <class name="com.google.qa.testcases.GmailPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.google.qa.testcases.GmailPageTest@5b799640]" started-at="2023-03-04T14:52:20 MST" name="setup" finished-at="2023-03-04T14:52:25 MST" duration-ms="5342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="GmailPagetitleTest()[pri:1, instance:com.google.qa.testcases.GmailPageTest@5b799640]" started-at="2023-03-04T14:52:25 MST" name="GmailPagetitleTest" finished-at="2023-03-04T14:52:25 MST" duration-ms="6" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Gmail Page Title Not Matched expected [Sign in - Google Accounts11] but found [Sign in - Google Accounts]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Gmail Page Title Not Matched expected [Sign in - Google Accounts11] but found [Sign in - Google Accounts]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at com.google.qa.testcases.GmailPageTest.GmailPagetitleTest(GmailPageTest.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:132)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:147)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GmailPagetitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.google.qa.testcases.GmailPageTest@5b799640]" started-at="2023-03-04T14:52:25 MST" name="tearDown" finished-at="2023-03-04T14:52:25 MST" duration-ms="449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.google.qa.testcases.GmailPageTest@5b799640]" started-at="2023-03-04T14:52:25 MST" name="setup" finished-at="2023-03-04T14:52:29 MST" duration-ms="4159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="GmailErrorTest()[pri:2, instance:com.google.qa.testcases.GmailPageTest@5b799640]" started-at="2023-03-04T14:52:29 MST" name="GmailErrorTest" finished-at="2023-03-04T14:52:30 MST" duration-ms="656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GmailErrorTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.google.qa.testcases.GmailPageTest@5b799640]" started-at="2023-03-04T14:52:30 MST" name="tearDown" finished-at="2023-03-04T14:52:31 MST" duration-ms="452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.google.qa.testcases.GmailPageTest@5b799640]" started-at="2023-03-04T14:52:31 MST" name="setup" finished-at="2023-03-04T14:52:35 MST" duration-ms="4176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="HelpPageTitleTest()[pri:3, instance:com.google.qa.testcases.GmailPageTest@5b799640]" started-at="2023-03-04T14:52:35 MST" name="HelpPageTitleTest" finished-at="2023-03-04T14:52:37 MST" duration-ms="2058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HelpPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.google.qa.testcases.GmailPageTest@5b799640]" started-at="2023-03-04T14:52:37 MST" name="tearDown" finished-at="2023-03-04T14:52:37 MST" duration-ms="460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.google.qa.testcases.GmailPageTest -->
+      <class name="com.google.qa.testcases.StorePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.google.qa.testcases.StorePageTest@c05fddc]" started-at="2023-03-04T14:52:37 MST" name="setup" finished-at="2023-03-04T14:52:43 MST" duration-ms="5675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="PhonesDisplayTest()[pri:1, instance:com.google.qa.testcases.StorePageTest@c05fddc]" started-at="2023-03-04T14:52:43 MST" name="PhonesDisplayTest" finished-at="2023-03-04T14:52:43 MST" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PhonesDisplayTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.google.qa.testcases.StorePageTest@c05fddc]" started-at="2023-03-04T14:52:43 MST" name="tearDown" finished-at="2023-03-04T14:52:43 MST" duration-ms="440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.google.qa.testcases.StorePageTest@c05fddc]" started-at="2023-03-04T14:52:43 MST" name="setup" finished-at="2023-03-04T14:52:48 MST" duration-ms="4675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LaptopDisplayTest()[pri:2, instance:com.google.qa.testcases.StorePageTest@c05fddc]" started-at="2023-03-04T14:52:48 MST" name="LaptopDisplayTest" finished-at="2023-03-04T14:52:48 MST" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaptopDisplayTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.google.qa.testcases.StorePageTest@c05fddc]" started-at="2023-03-04T14:52:48 MST" name="tearDown" finished-at="2023-03-04T14:52:49 MST" duration-ms="454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.google.qa.testcases.StorePageTest@c05fddc]" started-at="2023-03-04T14:52:49 MST" name="setup" finished-at="2023-03-04T14:52:54 MST" duration-ms="5377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="StorePageTitleTest()[pri:3, instance:com.google.qa.testcases.StorePageTest@c05fddc]" started-at="2023-03-04T14:52:54 MST" name="StorePageTitleTest" finished-at="2023-03-04T14:52:54 MST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StorePageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.google.qa.testcases.StorePageTest@c05fddc]" started-at="2023-03-04T14:52:54 MST" name="tearDown" finished-at="2023-03-04T14:52:55 MST" duration-ms="454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.google.qa.testcases.StorePageTest -->
+      <class name="com.google.qa.testcases.HomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.google.qa.testcases.HomePageTest@aba625]" started-at="2023-03-04T14:52:55 MST" name="setup" finished-at="2023-03-04T14:52:57 MST" duration-ms="2877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="HomePagetitleTest()[pri:1, instance:com.google.qa.testcases.HomePageTest@aba625]" started-at="2023-03-04T14:52:57 MST" name="HomePagetitleTest" finished-at="2023-03-04T14:52:57 MST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePagetitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.google.qa.testcases.HomePageTest@aba625]" started-at="2023-03-04T14:52:57 MST" name="tearDown" finished-at="2023-03-04T14:52:58 MST" duration-ms="857" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.google.qa.testcases.HomePageTest@aba625]" started-at="2023-03-04T14:52:58 MST" name="setup" finished-at="2023-03-04T14:53:01 MST" duration-ms="2861" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="GooogleImageLogoTest()[pri:2, instance:com.google.qa.testcases.HomePageTest@aba625]" started-at="2023-03-04T14:53:01 MST" name="GooogleImageLogoTest" finished-at="2023-03-04T14:53:01 MST" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GooogleImageLogoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.google.qa.testcases.HomePageTest@aba625]" started-at="2023-03-04T14:53:01 MST" name="tearDown" finished-at="2023-03-04T14:53:02 MST" duration-ms="860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.google.qa.testcases.HomePageTest@aba625]" started-at="2023-03-04T14:53:02 MST" name="setup" finished-at="2023-03-04T14:53:05 MST" duration-ms="2978" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SearchPageTest()[pri:3, instance:com.google.qa.testcases.HomePageTest@aba625]" started-at="2023-03-04T14:53:05 MST" name="SearchPageTest" finished-at="2023-03-04T14:53:05 MST" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchPageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.google.qa.testcases.HomePageTest@aba625]" started-at="2023-03-04T14:53:05 MST" name="tearDown" finished-at="2023-03-04T14:53:06 MST" duration-ms="652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.google.qa.testcases.HomePageTest@aba625]" started-at="2023-03-04T14:53:06 MST" name="setup" finished-at="2023-03-04T14:53:09 MST" duration-ms="2903" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="GmailPageTest()[pri:4, instance:com.google.qa.testcases.HomePageTest@aba625]" started-at="2023-03-04T14:53:09 MST" name="GmailPageTest" finished-at="2023-03-04T14:53:10 MST" duration-ms="1212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GmailPageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.google.qa.testcases.HomePageTest@aba625]" started-at="2023-03-04T14:53:10 MST" name="tearDown" finished-at="2023-03-04T14:53:10 MST" duration-ms="432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.google.qa.testcases.HomePageTest@aba625]" started-at="2023-03-04T14:53:10 MST" name="setup" finished-at="2023-03-04T14:53:13 MST" duration-ms="3215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyStoreLinkTest()[pri:5, instance:com.google.qa.testcases.HomePageTest@aba625]" started-at="2023-03-04T14:53:13 MST" name="VerifyStoreLinkTest" finished-at="2023-03-04T14:53:15 MST" duration-ms="1773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyStoreLinkTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.google.qa.testcases.HomePageTest@aba625]" started-at="2023-03-04T14:53:15 MST" name="tearDown" finished-at="2023-03-04T14:53:16 MST" duration-ms="375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.google.qa.testcases.HomePageTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

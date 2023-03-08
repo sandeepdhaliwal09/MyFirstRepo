@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Google Application Test Automation Test Suit">
+  <test name="Google App Test Cases">
+    <classes>
+      <class name="com.google.qa.testcases.HomePageTest"></class>
+      <class name="com.google.qa.testcases.StorePageTest">></class>
+      
+   
+   
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

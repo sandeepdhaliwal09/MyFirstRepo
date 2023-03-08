@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 56.649 sec <<< FAILURE! - in TestSuite
+GmailPagetitleTest(com.google.qa.testcases.GmailPageTest)  Time elapsed: 0.008 sec  <<< FAILURE!
+java.lang.AssertionError: Gmail Page Title Not Matched expected [Sign in - Google Accounts11] but found [Sign in - Google Accounts]
+	at com.google.qa.testcases.GmailPageTest.GmailPagetitleTest(GmailPageTest.java:42)
+
