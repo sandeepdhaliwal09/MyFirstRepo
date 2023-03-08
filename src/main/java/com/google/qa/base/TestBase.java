@@ -1,5 +1,5 @@
 package com.google.qa.base;
-
+// This is Base Class for Google Test
 
 import java.io.FileInputStream;
 import java.io.IOException;
